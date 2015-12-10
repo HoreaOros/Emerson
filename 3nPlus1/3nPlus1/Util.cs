@@ -20,5 +20,13 @@ namespace _3nPlus1
 
             return n;
         }
+
+        internal static void Swap(ref int a, ref int b)
+        {
+            int aux;
+            aux = a;
+            a = b;
+            b = aux;
+        }
     }
 }
