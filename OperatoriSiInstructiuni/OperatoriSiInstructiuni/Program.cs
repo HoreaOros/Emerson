@@ -69,6 +69,8 @@ namespace OperatoriSiInstructiuni
 
             decimal m1; // util cand avem nevoie de precizie mai buna
             m1 = 1.123456m;
+
+
         }
     }
 }
