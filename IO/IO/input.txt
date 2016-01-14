@@ -1,0 +1,6 @@
+﻿Elipsa 10 10 20 20
+Segment 100 30 40 25
+Dreptunghi 200 30 40 23
+Elipsa 10 25 20 20
+Segment 100 40 40 25
+Dreptunghi 20 30 40 23
