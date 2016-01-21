@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,7 +34,7 @@ namespace ASD
         /// <param name="item"></param>
         public void add(Item item)
         {
-            if (count < capacity - 1)
+            if (count < capacity)
             {
                 data[count++] = item;
             }
@@ -56,7 +57,7 @@ namespace ASD
         {
             return count;
         }
-        
+
         public IEnumerator<Item> GetEnumerator()
         {
             for (int i = 0; i < count; i++)

@@ -33,7 +33,7 @@ namespace ASD
         /// <param name="item">Elementul ce se adauga</param>
         public void enqueue(Item item)
         {
-            if (right < capacity - 1)
+            if (right < capacity)
                 data[right++] = item;
             else
                 throw new QueueFullException();

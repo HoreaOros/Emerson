@@ -102,13 +102,7 @@ namespace ASD
         {
             return count;
         }
-        public static void Main(string[] args)
-        {
-            Stack<String> stack = new Stack<String>();
-            stack.push("Test");
-
-            String next = stack.pop();
-        }
+       
 
 
         public IEnumerator<Item> GetEnumerator()

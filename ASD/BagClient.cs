@@ -20,6 +20,8 @@ namespace ASD
             {
                 suma += item;
             }
+
+            
             Console.WriteLine("Suma elementelor din bag = {0}", suma);
         }
     }

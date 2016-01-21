@@ -10,7 +10,7 @@ namespace ASD
     {
         public static void Main(string[] args)
         {
-            Stack<int> st = new Stack<int>(3);
+            Stack<int> st = new Stack<int>();
 
             for (int i = 0; i < 10; i++)
                 st.push(i);

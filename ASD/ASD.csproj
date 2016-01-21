@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ASD.ThreeSum</StartupObject>
+    <StartupObject>ASD.ResizingStackClient</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -93,6 +93,7 @@
     <Compile Include="QuickSort.cs" />
     <Compile Include="QuickSort3Way.cs" />
     <Compile Include="ResizingStack.cs" />
+    <Compile Include="ResizingStackClinet.cs" />
     <Compile Include="Selection.cs" />
     <Compile Include="SelectionSort.cs" />
     <Compile Include="ShellSort.cs" />
