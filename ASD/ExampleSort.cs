@@ -25,8 +25,9 @@ namespace ASD
         public static void sort<T>(T[] a) where T: IComparable<T>
         {
             int i, j;
-            for (i = 0; i < a.Length - 1; i++)
-                for (j = i + 1; j < a.Length; j++)
+            int n = a.Length;
+            for (i = 0; i < n - 1; i++)
+                for (j = i + 1; j < n; j++)
                     if (less(a[j], a[i]))
                         exch(a, i, j);
         }

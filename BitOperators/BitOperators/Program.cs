@@ -42,6 +42,8 @@ namespace BitOperators
             // p = 1001
             // --------
             // m = 0011 
+            uint mask = 0;
+            int z = Convert.ToInt32("11001001", 2);
         }
 
         private static uint GetBit(uint a, int v)
