@@ -42,7 +42,7 @@ namespace ASD
 
         }
         /// <summary>
-        /// MergeSort 
+        /// QuickSort 
         /// </summary>
         /// <param name="a"></param>
         public static void sort<T>(T[] a) where T : IComparable<T>
