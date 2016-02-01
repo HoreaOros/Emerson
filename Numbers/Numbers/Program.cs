@@ -27,6 +27,25 @@ namespace Numbers
             n = 1238679;
             Console.WriteLine("Cifrele numarului {0} {1}sunt in ordine crescatoare", n, Crescator(n)? "" : "nu ");
 
+            n = 12357; // 87642
+            Console.WriteLine("Complementul fata de 9 al lui {0} este: {1}", n, Complement9(n));
+
+        }
+
+        private static int Complement9(int n)
+        {
+            int r = 0;
+            int p10 = 1;
+            int c;
+            while (n > 0)
+            {
+                c = n % 10;
+                r += (9 - c) * p10;
+                p10 *= 10;
+
+                n = n / 10;
+            }
+            return r;
         }
 
         private static bool Palindrom3(int n)
@@ -170,7 +189,7 @@ namespace Numbers
             }
 
             int contor = 0;
-            for (int d = 2; d * d <= n; d++)
+            for (int d = 2; d <= Math.Sqrt(n); d++)
             {
                 if (n % d == 0)
                 {
