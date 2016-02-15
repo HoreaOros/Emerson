@@ -15,7 +15,8 @@
             VerticalAlignment="Top"
             Width="75"
             Margin="88,67,0,0"
-            Click="button_Click" />
+            Click="button_Click"
+            Foreground="#FFF12C2C" />
 
     </Grid>
 </Window>
