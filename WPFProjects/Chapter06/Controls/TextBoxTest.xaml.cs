@@ -26,6 +26,7 @@ namespace Controls
 
         private void txt_SelectionChanged(object sender, RoutedEventArgs e)
         {
+            
             if (txtSelection == null) return;
             txtSelection.Text = String.Format(
                 "Selection from {0} to {1} is \"{2}\"",

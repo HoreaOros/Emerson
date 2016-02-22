@@ -15,7 +15,7 @@
       </GroupBox>
       <GroupBox Margin="5">
         <StackPanel>
-          <RadioButton>Group 3</RadioButton>
+          <RadioButton x:Name="gr3b1">Group 3</RadioButton>
           <RadioButton>Group 3</RadioButton>
           <RadioButton>Group 3</RadioButton>
           <RadioButton Margin="0,10,0,0" GroupName="Group2">Group 2</RadioButton>

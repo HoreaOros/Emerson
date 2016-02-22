@@ -10,7 +10,8 @@
         <TextBlock Margin="0,15,0,5">Slider with Tick Marks (TickFrequency=10, TickPlacement=BottomRight)</TextBlock>
         <Slider Maximum="100" Value="10" TickFrequency="10" TickPlacement="BottomRight"></Slider>
         <TextBlock Margin="0,15,0,5">Slider with Irregular Tick Marks (Ticks=0,5,10,15,25,50,100)</TextBlock>
-        <Slider Maximum="100" Value="10" Ticks="0,5,10,15,25,50,100"  TickPlacement="BottomRight"></Slider>
+        <Slider IsSnapToTickEnabled="True" Maximum="100" Value="10" Ticks="0,5,10,15,25,50,100"  TickPlacement="BottomRight"
+                TickFrequency="0"></Slider>
         <TextBlock Margin="0,15,0,5" TextWrapping="Wrap">Slider with a Selection Range (IsSelectionRangeEnabled=True, SelectionStart=25, SelectionEnd=75)</TextBlock>
         <Slider Maximum="100" Value="10" TickFrequency="10" TickPlacement="BottomRight"
                 IsSelectionRangeEnabled="True" SelectionStart="25" SelectionEnd="75"></Slider>

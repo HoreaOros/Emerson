@@ -6,7 +6,7 @@
   <TabControl Margin="5">
     <TabItem>
       <TabItem.Header>
-        <StackPanel>
+        <StackPanel Orientation="Horizontal">
         <TextBlock Margin="3" >Image and Text Tab Title</TextBlock>
         <Image Source="happyface.jpg" Stretch="None" />        
         </StackPanel>

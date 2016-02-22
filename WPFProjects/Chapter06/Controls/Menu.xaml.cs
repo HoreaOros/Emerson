@@ -34,7 +34,7 @@ namespace Controls
             Assembly assembly = type.Assembly;                       
             Window win = (Window)assembly.CreateInstance(
                 type.Namespace + "." + cmd.Content);
-
+            
             // Show the window.
             win.ShowDialog();
         }
